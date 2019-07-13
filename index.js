@@ -8,4 +8,4 @@ class UrlReader {
     }
   }
 
-  export default new UrlReader.showURLQueryString();
+  export default new UrlReader;
