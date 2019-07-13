@@ -1,6 +1,11 @@
-// exports.printMsg = function() {
-//     console.log("querystring-reader");
-//   }
+class UrlReader {
+    constructor() {
+      this.url = window.location.search;
+    }
 
+    showURLQueryString() {
+        return this.url;
+    }
+  }
 
-export default () => {console.log('test')} 
+  export default new UrlReader.showURLQueryString();
