@@ -1,6 +1,6 @@
-class UrlReader {
+class querystringreader {
     constructor() {
-      this.url = window.location.search;
+      this.url = 'window.location.search';
     }
 
     showURLQueryString() {
@@ -8,4 +8,4 @@ class UrlReader {
     }
   }
 
-  export default new UrlReader;
+  export default new querystringreader;
