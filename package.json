@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/code-in-time/querystring-reader.git"
   },
-  "author": "Andrew Crawford",
+  "author": "Andrew Crawford <code-in-time@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/code-in-time/querystring-reader/issues"
