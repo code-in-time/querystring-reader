@@ -1,11 +1,11 @@
 class querystringreader {
-    constructor() {
-      this.url = 'window.location.search';
-    }
-
-    showURLQueryString() {
-        return this.url;
-    }
+  constructor() {
+    this.url = window.location.search;
   }
 
-  export default new querystringreader;
+  showURLQueryString() {
+    return this.url;
+  }
+}
+
+export default new querystringreader().showURLQueryString();
