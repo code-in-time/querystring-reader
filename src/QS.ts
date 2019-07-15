@@ -7,12 +7,18 @@ class QS implements IQS {
   private splitIntoObject() {
     const urlArr = this.url.slice(1).split('&')
 
-    const s = urlArr
+    let obj = {}
+
+    urlArr.forEach((v:any) => {
+      let arr = v.split('=')
+      obj[arr[0]] = arr[1]
+    })
+
+    return obj
   }
 
   showURLQueryString() {
-    return this.url
-    console.log('')
+    return this.splitIntoObject()
   }
 }
 

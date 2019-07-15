@@ -6,11 +6,15 @@ var QS = /** @class */ (function () {
     }
     QS.prototype.splitIntoObject = function () {
         var urlArr = this.url.slice(1).split('&');
-        var s = urlArr;
+        var obj = {};
+        urlArr.forEach(function (v) {
+            var arr = v.split('=');
+            obj[arr[0]] = arr[1];
+        });
+        return obj;
     };
     QS.prototype.showURLQueryString = function () {
-        return this.url;
-        console.log('');
+        return this.splitIntoObject();
     };
     return QS;
 }());
