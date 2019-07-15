@@ -6,11 +6,15 @@ class QS implements IQS {
 
   private splitIntoObject() {
     const urlArr = this.url.slice(1).split('&')
+
+    const s = urlArr
   }
 
   showURLQueryString() {
     return this.url
+    console.log('')
   }
 }
 
 export default new QS().showURLQueryString();
+

@@ -1,11 +1,12 @@
 {
   "name": "querystring-reader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The purpase of the module is to be able to extract the key value pairs from a query string from the browser url quickly and easily.",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc index.ts"
+    "start": "node out/index.js",
+    "prestart": "npm run build",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
