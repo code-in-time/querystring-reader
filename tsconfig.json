@@ -4,9 +4,7 @@
       "rootDir": "./src",
       "sourceMap": true,
       "moduleResolution": "node",
-      "target": "es5"
-  },
-  "files": [
-    "typings/index.d.ts"
-  ],
+      "target": "es5",
+      "typeRoots": ["./typings"]
+  }
 }
