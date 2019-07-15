@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var QS = /** @class */ (function () {
     function QS() {
-        this.url = "?test=1&g=2&hhh=8";
+        this.url = window.location.search;
     }
     QS.prototype.splitIntoObject = function () {
         var urlArr = this.url.slice(1).split('&');

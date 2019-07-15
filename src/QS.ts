@@ -2,7 +2,7 @@ import { IQS } from './interface'
 
 class QS implements IQS {
 
-  private url: string = "?test=1&g=2&hhh=8"
+  private url: string = window.location.search
 
   private splitIntoObject() {
     const urlArr = this.url.slice(1).split('&')
