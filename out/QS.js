@@ -18,5 +18,5 @@ var QS = /** @class */ (function () {
     };
     return QS;
 }());
-exports.default = new QS().showURLQueryString();
+exports.default = QS;
 //# sourceMappingURL=QS.js.map
