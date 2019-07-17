@@ -22,5 +22,5 @@ class QS implements IQS {
   }
 }
 
-export default new QS().showURLQueryString();
+export default new QS();
 

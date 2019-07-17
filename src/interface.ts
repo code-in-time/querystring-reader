@@ -1,3 +1,3 @@
 export interface IQS {
-    showURLQueryString(): any
+    showURLQueryString(): object
 }
