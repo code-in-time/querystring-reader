@@ -1,6 +1,7 @@
 {
   "name": "querystring-reader",
-  "version": "1.0.13",
+  "version": "1.0.18",
+
   "description": "The purpase of the module is to be able to extract the key value pairs from a query string from the browser url quickly and easily.",
   "main": "./out/index.js",
   "scripts": {
@@ -10,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:code-in-time/querystring-reader.git"
+    "url": "git+https://github.com/code-in-time/querystring-reader.git"
   },
   "author": "Andrew Crawford <code-in-time@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://bitbucket.org/code-in-time/querystring-reader/src/master/"
+    "url": "https://github.com/code-in-time/querystring-reader/issues"
   },
-  "homepage": "https://bitbucket.org/code-in-time/querystring-reader/src/master/",
-  "dependencies": {
+  "homepage": "https://github.com/code-in-time/querystring-reader#readme",
+    "dependencies": {
     "typescript": "^3.5.3"
   }
 }

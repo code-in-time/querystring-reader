@@ -1,10 +1,8 @@
-import { IQS } from './interface'
+abstract class QS {
 
-class QS implements IQS {
+  private static url: string = window.location.search
 
-  private url: string = window.location.search
-
-  private splitIntoObject() {
+  private static splitIntoObject(): object {
     const urlArr = this.url.slice(1).split('&')
 
     let obj = {}
@@ -17,10 +15,9 @@ class QS implements IQS {
     return obj
   }
 
-  showURLQueryString() {
-    return this.splitIntoObject()
+  public static showURLQueryString(): object {
+    return this.splitIntoObject();
   }
 }
 
 export default QS;
-
